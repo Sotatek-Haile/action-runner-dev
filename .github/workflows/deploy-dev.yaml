@@ -1,4 +1,4 @@
-name: Deploy develop votee lending user
+name: Deploy develop 
 run-name: ${{ github.actor }} is deploying develop branch🚀
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - 'main'
 jobs:
   Deploy:
-    runs-on: [self-hosted, votee-lending-user]
+    runs-on: [self-hosted, action-runner-dev]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
