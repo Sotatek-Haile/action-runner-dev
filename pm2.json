@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "name": "votee-lending-user",
+            "script": "yarn dev",
+            "node_args": "",
+            "instances": 1
+        }
+    ]
+}
